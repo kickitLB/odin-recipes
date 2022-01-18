@@ -1,7 +1,21 @@
+@font-face {
+    font-family: "outfit-r";
+    src: url(../fonts/Outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: "outfit-b";
+    src: url(../fonts/Outfit/static/Outfit-Bold.ttf);
+}
+
 body {
     background: white;
+    font-family: "outfit-r", sans-serif;
 }
 
 #title {
     text-align: center;
+    text-decoration: underline;
+    font-family: "outfit-b", sans-serif;
+    font-size: 5em;
 }
