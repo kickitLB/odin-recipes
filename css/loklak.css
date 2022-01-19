@@ -7,10 +7,9 @@
     font-family: "outfit-b";
     src: url(../fonts/Outfit/static/Outfit-Bold.ttf);
 }
-
 body {
-    background: rgb(255, 255, 255);
     font-family: "outfit-r", sans-serif;
+    border: solid white 5rem;
 }
 
 #title {
@@ -20,27 +19,23 @@ body {
     color: rgb(21, 182, 21);
 }
 
-.pics {
-    height: 70vh;
-    width: 30vw;
-    padding-left: 2vw;
-}
-
-.food {
+h3 {
     font-size: 3em;
-    display: flex;
-    justify-content: space-between; 
+    color: rgb(77, 216, 77);
 }
 
-#bll {
-    border-left: white solid 2rem;
-    
+p {
+    font-size: 1.5em;
 }
 
-#chli {
-    border-left: solid white 15rem;
+li {
+    font-size: 1.5em;
 }
 
-#gcs {
-    border-right: solid white 3rem;
+a {
+    font-size: 2em;
+}
+ 
+#pic {
+    padding-left: 35vw;
 }
