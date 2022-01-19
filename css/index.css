@@ -9,7 +9,7 @@
 }
 
 body {
-    background: white;
+    background: rgb(255, 255, 255);
     font-family: "outfit-r", sans-serif;
 }
 
@@ -18,4 +18,27 @@ body {
     text-decoration: underline;
     font-family: "outfit-b", sans-serif;
     font-size: 5em;
+    color: rgb(21, 182, 21);
+}
+
+.pics {
+    height: 70vh;
+    width: 30vw;
+    padding-left: 2vw;
+}
+
+.food {
+    font-size: 3em;
+}
+
+.food.bll {
+    text-align: left;
+}
+
+.food.chli {
+    text-align: center;
+}
+
+.food.gcs {
+    text-align: right;
 }
