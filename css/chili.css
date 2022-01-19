@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "outfit-r";
+    src: url(../fonts/Outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: "outfit-b";
+    src: url(../fonts/Outfit/static/Outfit-Bold.ttf);
+}
+body {
+    font-family: "outfit-r", sans-serif;
+    border: solid white 5rem;
+}
+
+#title {
+    text-align: center;
+    font-family: "outfit-b", sans-serif;
+    font-size: 5em;
+    color: rgb(21, 182, 21);
+}
+
+h2 {
+    font-size: 3em;
+    color: rgb(77, 216, 77);
+}
+
+p {
+    font-size: 1.5em;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+a {
+    font-size: 2em;
+}
+ 
+#pic {
+    padding-left: 35vw;
+}
+
+#pic2 {
+    padding-left: 35vw;
+}
